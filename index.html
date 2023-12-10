@@ -5,7 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>helsia-bootcamp</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="style.css" />
+
+    <style>
+      @font-face {
+        font-family: sporting;
+        src: url("./sporting-grotesque/SportingGrotesque-Bold.otf");
+      }
+      .sporting {
+        font-family: sporting;
+      }
+    </style>
 
     <script
       src="https://kit.fontawesome.com/0030e36d5f.js"
@@ -32,11 +41,11 @@
       <!-- picture & btn -->
       <div class="flex px-20">
         <div class="pt-[150px]">
-          <h4 class="text-5xl font-">
+          <h4 class="text-5xl sporting">
             Where Intense <br />
             and Fun Training <br />
             meet <span class="text-[#8382EB]">Motivation!</span>
-            <img class="inline pb-4" src="assets/image 79.png" alt="" />
+            <img class="inline" src="assets/image 79.png" alt="" />
           </h4>
           <h5 class="mb-[22px] py-2 pr-[200px]">
             Experience a transformative journey towards improving your health
@@ -154,6 +163,10 @@
       </div>
     </section>
 
-    
+    <section>
+      <div>
+        <img src="assets/girl&boy.svg" alt="">
+      </div>
+    </section>
   </body>
 </html>

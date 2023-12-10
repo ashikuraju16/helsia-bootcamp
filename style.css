@@ -1,7 +1,7 @@
-
 @font-face {
-    font-family: grotesque;
-    src: url(	
-        http://velvetyne.fr/fonts/sporting-grotesque/);
-    font-weight: bold;
-  }
+    font-family:sporting ;
+    src: url('./sporting-grotesque/SportingGrotesque-Bold.otf') format('otf');
+}
+.sporting {
+    font-family:sporting;
+}

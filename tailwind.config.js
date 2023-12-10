@@ -4,9 +4,11 @@ module.exports = {
   theme: {
     extend: {
       fontFamily:{
-          sporting:["Sporting Grotesque"],
+          sporting:[],
       }
     },
   },
   plugins: [],
 }
+
+
